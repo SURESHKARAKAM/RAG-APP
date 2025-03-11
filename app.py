@@ -14,8 +14,8 @@ def allowSelfSignedHttps(allowed):
 allowSelfSignedHttps(True)
 
 # Azure endpoint details
-url = 'https://ragapp001-xquqc.eastus2.inference.ml.azure.com/score'
-api_key = 'B2XUvNNhi5uRNBJf5nQ0AShpl8G6BrI3oTlI2SQ37v0jlW91JHRIJQQJ99BCAAAAAAAAAAAAINFRAZMLeHDG'
+url = ''
+api_key = ''
 
 @app.route('/')
 def home():
